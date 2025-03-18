@@ -1,0 +1,71 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0;
+    border: 0;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+}
+
+p {
+    clear: right;
+    padding: 3% 5%;
+}
+.main-div{
+    margin: 0 10%;
+}
+
+.bord {
+    width: 30%;
+    border: 2px;
+    border-style: solid;
+    margin: 0 10px 10px 10px;
+    position: relative;
+    display: inline-block;
+}
+
+.common {
+    border: 1px;
+    border-style: solid;
+    padding: 1% 4%;
+    float: right;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.chicken {
+    background-color: rgb(197, 118, 131);
+}
+
+.beef {
+    background-color: red;
+    color: white;
+    border-color: black;
+}
+
+.sushi {
+    background-color: rgb(226, 226, 81);
+    border-color: black;
+}
+
+@media (max-width: 767px) {
+    .bord {
+        width: auto;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .bord {
+        width: 45.5%;
+    }
+
+    #sush {
+        width: 100%;
+    }
+}
